@@ -1,0 +1,55 @@
+C:\Node\proyecto-node-crud>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (proyecto-node-crud)
+version: (1.0.0) 0.0.1
+description: crud con node js y mongo db
+entry point: (index.js) src/app.js
+test command:
+git repository:
+keywords:
+author: sergie code
+license: (ISC)
+About to write to C:\Node\proyecto-node-crud\package.json:
+
+{
+  "name": "proyecto-node-crud",
+  "version": "0.0.1",
+  "description": "crud con node js y mongo db",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sergie code",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+
+npm i nodemon --save-dev
+
+
+npm i express dotenv
+
+npm run dev
+
+npm i mongoose
+
+npm install body-parser
+
+habilite la svm de amd y pude usar docker que ya tenia instalado
+
+---levantar docker
+docker compose up -d
+
+quede en = 3:20:04
